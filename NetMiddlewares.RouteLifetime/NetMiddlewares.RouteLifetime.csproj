@@ -13,7 +13,7 @@
     <Version>0.0.1</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>.NET Core middleware to </Description>
+    <Description>.NET Core middleware to track routes usage to safely delete unused ones</Description>
     <PackageReleaseNotes>First middleware version.</PackageReleaseNotes>
   </PropertyGroup>
 
