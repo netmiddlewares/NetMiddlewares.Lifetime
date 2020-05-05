@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>NetMiddlewares.RouteLifetime</AssemblyName>
+    <PackageId>NetMiddlewares.RouteLifetime</PackageId>
+    <Authors>Renan Liberato</Authors>
+    <Product>NetMiddlewares.RouteLifetime</Product>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/netmiddlewares/NetMiddlewares.RouteLifetime</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/netmiddlewares/NetMiddlewares.RouteLifetime</RepositoryUrl>
+    <PackageTags>middleware;route;aging;profiling;debug</PackageTags>
+    <Version>0.0.1</Version>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>.NET Core middleware to </Description>
+    <PackageReleaseNotes>First middleware version.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+</Project>
